@@ -39,10 +39,10 @@ margin:auto;
         <td> <?php echo $producto['producto'];?> </td>
         <td> <?php echo $producto['precio'];?> </td>
         <td> 
-            <a href="<?php echo base_url('productos/ver/'.$producto['id'])?>">Ver</a>
-            <a href='<?php echo base_url('productos/editar/'.$producto['id'])?>'>Editar</a>
+            <a href="<?php echo base_url('productos/ver/'.$producto['id'])?>">🔍</a>
+            <!--<a href='<?php echo base_url('productos/editar/'.$producto['id'])?>'>Editar</a>
             <a href='<?php echo base_url('productos/borrar/'.$producto['id'])?>'>Eliminar</a>    
-        </td>
+    --></td>
     </tr>
         <?php endforeach;?>
     </table><br>
